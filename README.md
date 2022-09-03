@@ -1,16 +1,24 @@
-# noteapp
-basic ruby on rails note app with mysql database.
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-docker & docker-compose added
+Things you may want to cover:
 
-Run app.
-docker-compose up 
+* Ruby version
 
-DB Create or Migrate:
-docker-compose run app rake (db:migrate / db:create)
+* System dependencies
 
-app run on localhost:3001
+* Configuration
 
-to access database download any mysql ide like mysql workbench
-put the credential or db environment setup from docker compose
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
