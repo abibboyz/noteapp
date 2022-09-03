@@ -1,29 +1,4 @@
-Started setup from --> https://github.com/devteds/e1-rails-on-docker
-
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-
+# some useful steps to follow to setup docker and docker compose with rails.
 Some useful instruction
 Making a folder first:
 *mkdir ~/projects/noteapp
