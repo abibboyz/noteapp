@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+docker-compose run app rails new . --force --database=mysql --skip-bundle
+docker-compose build
+docker-compose up
+app runs on --> http://localhost:3001
+change database.yml file under config folder.
+docker-compose run --rm app rails g scaffold note title body:text
+docker-compose run --rm app rake db:migrate
+after scaffold is added and migration is done --> http://localhost:3001/notes
